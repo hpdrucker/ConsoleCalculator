@@ -36,6 +36,6 @@ public class CalculatorTest {
         testee = new Calculator();
         assertTrue(testee.division(20, 0) == 0);
     }
-    
+
 
 }
