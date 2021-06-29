@@ -30,4 +30,11 @@ public class CalculatorTest {
         testee = new Calculator();
         assertTrue(testee.subtraktion(-4, -8) == 4);
     }
+
+    @Test(expected = java.lang.AssertionError.class)
+    public void testDivisionNull(){
+        testee = new Calculator();
+        assertTrue(testee.division(20, 0) == 0);
+    }
+
 }
