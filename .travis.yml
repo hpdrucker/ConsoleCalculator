@@ -4,7 +4,7 @@ deploy:
   provider: releases
   api_key:
     secure: t1jQZYniudAGuHmJQ4LSI+z189tkVhWEVoqROI3VeVGVG8WtjKq2j+o/U3TjvvHE0ELCOPgw+xZQJKip2H1NUUoQ6u8tItJwWKBPFkAISZ1M5aOtgcTxYH5kKrSYZOOUE84NZ0rU3cimgdwetgRu+LzVLaJbaLMzDKL8AGbXj2pu7+wcnQ7EnUBWCOJac7H+fwHBp9J25UphmeAY1fjUqk4mXUYrrqu2yZmoEJNIewbv5a5nc9jREYOY2Wv98FsylxQz4of8WkioZah5U7QLqFUJJr1HGZuqFtD80LV/OotSiIv0zX46GvvA54jxEuTtzEkZ/b9M0UUptEievvWH0aR68Kfdlu1ranv8mvtFOe6dBlAFwNQbdtsS/sVUel1VHNGtO8Tl9tjQbwiTWqBiy0UInQhl3lheTJzhEuT8VcVykCmxycw2z6ZDag/lJocuz6eLoZ5Pw/A3wQpOHHAQ4DCPdqpXW02Tj+t/r3l0s0TY0aP9TgHj9yFzLI135DPnbQ519wh2YC7mlDbL3fNSGTc+MvV3d6J2q51vWo/RDV56plMYyqmjjcQc536UV31pKRQKZL71bVETWFEFuY7IgWu/Xb491G+JJ//lDSM4sgVBwfcHNXJw2hOGOMwjkcEreK9v0F1o9h+YgJUO48gKWYZMuOwejBHSHfoq8Zcg5CE=
-    file: "/home/travis/.m2/repository/ch/bbw/02_ConsoleCalculatorWithMaven/0.0.1-SNAPSHOT/02_ConsoleCalculatorWithMaven-0.0.1-SNAPSHOT.jar"
+  file: "/home/travis/.m2/repository/ch/bbw/02_ConsoleCalculatorWithMaven/0.0.1-SNAPSHOT/02_ConsoleCalculatorWithMaven-0.0.1-SNAPSHOT.jar"
     skip_cleanup: true
     on:
       tags: true
